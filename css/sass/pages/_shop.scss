@@ -1,0 +1,109 @@
+body {
+    font-family: "Raleway";
+}
+
+.btn {
+    width: 125px;
+    height: 36px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+    border-radius: 0px;
+    transition: all 1s;
+}
+.btn:hover {
+    background-color: transparent;
+    color: $main-color;
+}
+.btn-danger {
+    background-color: $main-color;
+}
+
+.our-shop {
+    h2 {
+        font-weight: bold;
+        margin-top: $heading-padding-top;
+        margin-bottom: $heading-padding-bottom;
+    }
+
+    .Product-classification-bar {
+        background-color: $background-sections;
+        margin-bottom: 30px;
+        padding: 10px 20px;
+        .accordion-header {
+            width: 100% !important;
+
+            .accordion-button {
+                width: 100%;
+                color: $main-color;
+                font-size: 20px;
+                font-weight: bold;
+                .routate {
+                    transform: rotate(180deg);
+                }
+                .fa-angle-down {
+                    float: right;
+                }
+            }
+        }
+
+        .accordion-body {
+            ul {
+                margin-top: 20px;
+                li {
+                    display: inline-block;
+                    width: calc(90% / 5);
+                    background-color: $main-color;
+                    color: #fff;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                    font-weight: bold;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    .Product-container {
+        .card {
+            margin-bottom: 15px;
+            border: 3px solid $main-color;
+            img {
+                max-width: 100%;
+                max-height: 300px;
+                border-bottom: none;
+            }
+            .card-body {
+                padding-left: 8px;
+                padding-bottom: 8px;
+                padding-top: 4px;
+
+                .card-title {
+                    color: $main-color;
+                    font-size: 24px;
+                    font-weight: 700;
+                    margin-bottom: 5px;
+                }
+
+                .card-text {
+                    font-size: 16px;
+                    font-weight: 600;
+                    margin-bottom: -2px;
+                }
+
+                .price-rate {
+                    margin-top: 8px;
+                    margin-bottom: 10px;
+                    margin-left: 5px;
+
+                    p {
+                        color: $main-color;
+                        font-size: 23px;
+                        font-weight: 900;
+                    }
+                }
+            }
+        }
+    }
+}

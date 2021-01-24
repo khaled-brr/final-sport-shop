@@ -1,0 +1,184 @@
+@import url("https://fonts.gstatic.com/s/raleway/v18/1Ptug8zYS_SKggPNyCkIT5lu.woff2");
+/*
+
+// X-Small devices (portrait phones, less than 576px)
+@media (max-width:$phone ) { ... }
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: $landscape) { ... }
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: $tablets) { ... }
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: $desktop) { ... }
+
+// X-Large devices (large desktops, less than 1400px)
+@media (max-width: $Extra-large) { ... }
+
+*/
+body {
+  font-family: "Raleway";
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #f9f9f9;
+}
+
+.btn {
+  width: 125px;
+  height: 36px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1.3px;
+  text-transform: uppercase;
+  border-radius: 0px;
+  background-color: #c4122e;
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
+}
+
+.btn:hover {
+  background-color: transparent !important;
+  color: #c4122e !important;
+  font-weight: 900;
+}
+
+.container-fluid {
+  max-width: 100% !important;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.background {
+  width: 100%;
+  min-height: 700px;
+  background-color: #c4122e;
+  -webkit-clip-path: polygon(41% 0, 14% 46%, 48% 100%, 0% 100%, 0 50%, 0% 0%);
+          clip-path: polygon(41% 0, 14% 46%, 48% 100%, 0% 100%, 0 50%, 0% 0%);
+}
+
+.log-in-page .nav-bar-links {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+}
+
+.log-in-page .nav-bar-links .navbar-brand {
+  color: #fff;
+  font-size: 30px;
+  font-family: cursive;
+  letter-spacing: -2.9px;
+  font-weight: bolder;
+  text-align: left !important;
+  margin-left: 30px;
+}
+
+@media (max-width: 575.98px) {
+  .log-in-page .nav-bar-links .navbar-brand {
+    font-size: 26px;
+    margin-left: 19px;
+  }
+}
+
+.log-in-page .nav-bar-links .sinup {
+  float: right;
+  margin: 10px 10px 0px;
+  color: #fff;
+  border-radius: 6px;
+}
+
+.form {
+  background-color: #eee;
+  height: 100%;
+  color: #000;
+}
+
+.form .lo-in-form {
+  position: absolute;
+  top: 45%;
+  left: 60%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.form .lo-in-form .fa-user-lock {
+  color: #c4122e;
+  margin-bottom: 10px;
+}
+
+.form .lo-in-form h3 {
+  color: #c4122e;
+  font-weight: bolder;
+  font-size: 30px;
+  font-family: cursive;
+  letter-spacing: -2.9px;
+  margin-bottom: 30px;
+}
+
+.form .lo-in-form input {
+  display: block;
+  outline: none;
+  padding: 6px 7px;
+  border: 1.5px solid #a0a0a0;
+  width: 350px;
+  color: #3f3b3b;
+  font-size: 16px;
+  border-radius: 6px;
+  background: #f9f9f9;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.form .lo-in-form input:focus::-webkit-input-placeholder {
+  opacity: 0;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.form .lo-in-form .password {
+  position: relative;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.form .lo-in-form .password .show-hide {
+  position: absolute;
+  top: 13px;
+  right: 20px;
+  font-size: 16px;
+  color: #aaa;
+}
+
+.form .lo-in-form .password .fa-eye {
+  display: none;
+}
+
+.form .lo-in-form .password .show-hide:hover {
+  cursor: pointer;
+  color: #c4122e;
+}
+
+.form .lo-in-form a {
+  margin-top: -4px;
+  float: left;
+  font-size: 12px;
+  font-weight: bold;
+  color: #aaa;
+  margin-left: 2px;
+}
+
+.form .lo-in-form button {
+  float: right;
+  color: #fff;
+  border-radius: 6px;
+  margin-top: -4px;
+}
+
+.form .lo-in-form button .fa-sign-in-alt {
+  margin-right: 8px;
+}
+/*# sourceMappingURL=login.css.map */

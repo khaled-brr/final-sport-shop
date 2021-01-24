@@ -1,0 +1,145 @@
+body {
+  font-family: "Raleway";
+}
+
+nav {
+  background-color: $main-color;
+
+  .navbar-toggler {
+    background-color: $main-color;
+    color: #fff;
+    outline: none;
+
+    .navbar-toggler-icon {
+      background-image: url("../../../images/PngItem_302546.png");
+      background-size: cover;
+    }
+  }
+
+  .navbar-brand {
+    color: #fff;
+    font-size: 30px;
+    font-family: cursive;
+    letter-spacing: -2.9px;
+    font-weight: bolder;
+  }
+}
+
+.navbar-nav {
+  @media (max-width: $landscape) {
+    margin-bottom: -20px;
+  }
+  @media (max-width: $phone) {
+    margin-bottom: -20px;
+  }
+
+  .nav-link {
+    @media (max-width: $landscape) {
+      padding-left: 15px;
+      width: 140px;
+    }
+  }
+  a {
+    color: #fff;
+    font-size: 16.5px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 2px;
+    position: relative;
+
+    @media (max-width: $landscape) {
+      display: block;
+      width: 120px;
+      padding: 5px;
+    }
+    @media (max-width: $phone) {
+      display: block;
+      width: 120px;
+      padding: 5px;
+    }
+  }
+
+  @media (max-width: $phone) {
+    .active:before {
+      content: "";
+      display: none;
+    }
+  }
+
+  @media (max-width: $tablets) {
+    .active:before {
+      content: "";
+      display: none;
+    }
+  }
+
+  @media (max-width: $desktops) {
+    .active:before {
+      content: "";
+      background-color: $lighter-main;
+      position: absolute;
+      left: 2px;
+      bottom: 0px;
+      height: 4px;
+      transition: height 0.3s ease;
+      z-index: 3;
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+
+  @media (max-width: $Extra-large) {
+    .active:before {
+      content: "";
+      background-color: $lighter-main;
+      position: absolute;
+      left: 2px;
+      bottom: 0px;
+      height: 4px;
+      transition: height 0.3s ease;
+      z-index: 3;
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+}
+
+.fa-user {
+  @media (max-width: $tablets) {
+    position: relative;
+    top: -43px;
+  }
+
+  @media (max-width: $landscape) {
+    position: relative;
+    top: -37px;
+  }
+  @media (max-width: $phone) {
+    position: relative;
+    top: -33px;
+    left: 2px;
+  }
+}
+
+.fa-lock {
+  margin-left: 75px;
+  margin-right: -18px;
+  margin-top: 2px;
+
+  @media (max-width: $tablets) {
+    margin-left: 50px;
+  }
+  @media (max-width: $landscape) {
+    margin-left: 54px;
+    margin-right: -18px;
+    margin-top: 0px;
+    margin-left: 30px;
+  }
+  @media (max-width: $phone) {
+    position: relative;
+    left: 3px;
+    top: 4px;
+    padding: 0px;
+    margin-left: 30px;
+  }
+}
